@@ -1,0 +1,8 @@
+RESTUFL ROUTES
+
+Name:   url:              type:
+
+INDEX   /campgrounds      GET
+NEW     /campgrounds/new  GET
+CREATE  /campgrounds      POST
+SHOW    /campgrounds:id   GET
