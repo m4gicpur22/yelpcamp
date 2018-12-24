@@ -1,0 +1,13 @@
+Installing MongoDB and commands
+
+Installing MongoDB into workspace:
+sudo apt-get install -y mongodb-org
+
+Makr directory data:
+mkdir data
+echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
+chmod a+x mongod
+
+Starting Mongod
+./mongod
+
