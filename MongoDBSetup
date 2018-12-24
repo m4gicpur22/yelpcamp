@@ -3,7 +3,7 @@ Installing MongoDB and commands
 Installing MongoDB into workspace:
 sudo apt-get install -y mongodb-org
 
-Makr directory data:
+Make directory data:
 mkdir data
 echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
 chmod a+x mongod
@@ -11,3 +11,5 @@ chmod a+x mongod
 Starting Mongod
 ./mongod
 
+Incase of unexpected shutdown detected error
+remove mongod.lock from data and start again
