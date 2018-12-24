@@ -11,7 +11,7 @@ chmod a+x mongod
 Starting Mongod
 ./mongod
 Starting Mongo
-Mongo
+mongo
 
 Incase of unexpected shutdown detected error
 remove mongod.lock from data and start again
