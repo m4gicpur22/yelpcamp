@@ -1,0 +1,22 @@
+RESTUFL ROUTES
+
+Rest- HTTP Routes and CRUD
+
+Two types of HTTP Routes:
+GET and POST
+
+CREATE
+READ
+UPDATE
+DESTROY
+
+Name:   url:                  type:    Description:
+
+INDEX   /campgrounds          GET      Shows List of Campgrounds
+NEW     /campgrounds/new      GET      Shows new form for creating campgrounds
+CREATE  /campgrounds          POST     Ceate a new campground, redirects back to original page
+SHOW    /campgrounds/:id      GET      Shows information about campgrounds
+EDIT    /campgrounds/:id/edit GET      Shows edit form for campgrounds
+UPDATE  /campgrounds/:id      PUT      Updates current information on infopage, redirects back to info page 
+DESTRY  /campgrounds/:id      DEL      Deletes forms/info for campgrounds
+
