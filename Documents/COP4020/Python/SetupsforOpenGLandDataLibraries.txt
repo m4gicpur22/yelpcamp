@@ -1,0 +1,10 @@
+Setting up OpenGl Graphics for Python:
+~Installing the pygame package
+	```python -m install pygame```
+~Installing OpenGL
+	```easy_install PyOpenGl```
+	Link: http://pyopengl.sourceforge.net/ctypes/using.html
+~Installing Data Science Libraries
+	```python -m pip install numpy```
+	```python -m pip install scipy```
+	```python -m pip install matplotlib```
