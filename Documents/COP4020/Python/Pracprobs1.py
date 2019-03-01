@@ -5,8 +5,8 @@ import math
 def multiplesf3and5s(integer):
 	list1 = []
 
-	for x in range(1, 1000)
-		if (value % 3 == 0) or (value % 5 == 0)
+	for x in range(1, 1000):
+		if (value % 3 == 0) or (value % 5 == 0):
 			list1.append(x)
 	return sum(list1) 
 
@@ -62,7 +62,7 @@ def isPalindrome(num):
 
 def palindromeList(start, end):
 	list1 = []
-	for i in range(start end+1):
+	for i in range(start, end+1):
 		for j in range(start, end+1):
 			if i==j:
 				continue
@@ -107,14 +107,14 @@ def largestPalindrome(start, end):
 # a,b = b,a
 
 #takes input
-value1 = input("Enter a value")
+#x = input("Enter a value")
 
-#exceptions
-while True:
-	try:
-		x = int(raw_input("Please enter a number: "))
-		break
-	except ValueErrors:
-		print "Oops! That was no valid number. Try again..."
+# #exceptions
+# while True:
+# 	try:
+# 		x = int(raw_input("Please enter a number: "))
+# 		break
+# 	except ValueError:
+# 		print("Oops! That was no valid number. Try again...")
 
-#TRY-EXCEPT-ELSE
+# #TRY-EXCEPT-ELSE
