@@ -1,0 +1,6 @@
+
+git config --get remote.origin.url
+~Allows us to check which URL Repository we are on
+
+git remote set-url origin <"GitHub Repsository Name">
+~Allows us to change/set our URL repos 
