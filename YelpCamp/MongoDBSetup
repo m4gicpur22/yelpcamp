@@ -1,0 +1,17 @@
+Installing MongoDB and commands
+
+Installing MongoDB into workspace:
+sudo apt-get install -y mongodb-org
+
+Make directory data:
+mkdir data
+echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
+chmod a+x mongod
+
+Starting Mongod
+./mongod
+Starting Mongo
+mongo
+
+Incase of unexpected shutdown detected error
+remove mongod.lock from data and start again
