@@ -1,21 +1,24 @@
 {
-  "name": "yelpcamp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start v1/app.js"
-  },
-  "engines": {
-    "node": "10.15.0"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "method-override": "^3.0.0",
-    "mongoose": "^5.4.0"
+    "name": "yelpcamp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node v1/app.js"
+    },
+    "engines": {
+      "node": "10.15.0",
+      "npm": "6.4.1"
+  
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "ejs": "^2.6.1",
+      "express": "^4.16.4",
+      "method-override": "^3.0.0",
+      "mongoose": "^5.4.0"
+    }
   }
-}
+  
