@@ -8,7 +8,9 @@
     "start": "node v1/app.js"
   },
   "engines": {
-    "node": "10.15.0"
+    "node": "10.15.0",
+    "npm": "6.4.1"
+
   },
   "author": "",
   "license": "ISC",
